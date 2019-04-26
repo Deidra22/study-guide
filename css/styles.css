@@ -1,4 +1,6 @@
-
+body{
+    height: 100vh;
+}
 
 /* START OF NAVBAR */
 .navbar{
@@ -20,9 +22,11 @@
 }
 /* END OF JUMBOTRON */
 
+
 .home-links{
-    margin: 5px;
+    margin-bottom: 10px;
 }
+
 
 
 

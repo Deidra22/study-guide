@@ -1,42 +1,58 @@
 body{
+    background-color: rgba(58, 80, 107, 0.8);
+    color: #0B132B;
     height: 100vh;
 }
 
 /* START OF NAVBAR */
+a.nav-item.nav-link.active{
+    color:  #6FFFE9;
+}
+a.nav-item.nav-link{
+    color:#5BC0BE;
+    border-right: thin solid #0B132B;
+}
 .navbar{
     border-bottom: thin solid #000000;
+    font-size: 25px;
 }
 .femlogo{
-    height: 75px;
-    width: 75px;
+    height: 125px;
+    width: 140px;
 }
 /* END OF NAVBAR */
 
 /* START OF JUMBOTRON */
 .jumbotron{
+    background-color: #3A506B;
     margin-top: 10px;
     text-align: center;
 }
 .quote_align{
-    margin-top: 20px;   
+    margin-top: 20px; 
+    color: #5BC0BE;  
 }
 /* END OF JUMBOTRON */
 
-
+/* START SITES TO REMEMBER */
+.list-group-item{
+    background-color: #3A506B;
+    color: #5BC0BE;
+}
 .home-links{
     margin-bottom: 10px;
 }
-
-
+/* END SITES TO REMEMBER */
 
 
 /* START OF FOOTER */
 footer{
     border: thin solid #000000;
     padding-top: 10px;
+    font-size: 20px;
 }
 .fab{
-    color: #000000;
+    color: #0B132B;
     font-size: 25px;
     padding: 10px;
 }
